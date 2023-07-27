@@ -1,0 +1,16 @@
+{
+
+    "name": "Joke Machine",
+    "description": "A chrome extension which will generate a joke everytime you click on it",
+    "version": "1.0",
+    "permissions": ["activeTabs"],
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+      },
+
+      "icons": {
+        "128": "logo.png"
+      }
+}
